@@ -23,4 +23,23 @@ npm install
 npm run dev
 ```
 
+## Deploy to Netlify
+
+### Option A: Import from Git (recommended)
+
+- **Build command**: `npm run build`
+- **Publish directory**: `dist`
+- **Node version**: `20` (already set in `netlify.toml`)
+
+Netlify will auto-detect `netlify.toml`, so you usually won’t need to enter anything manually.
+
+### Option B: Netlify Drop (drag & drop)
+
+```bash
+npm install
+npm run build
+```
+
+Then drag the generated `dist/` folder into Netlify Drop.
+
 
